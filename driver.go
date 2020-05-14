@@ -5,7 +5,6 @@ import (
 
 	"periph.io/x/periph/conn"
 	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/devices"
 )
 
 // New returns a new Button SHIM hardware driver. The driver encapsulates a set of buttons
