@@ -76,11 +76,3 @@ func (d *Driver) setup() error {
 
 	return nil
 }
-
-// Halt implements devices.Device.
-func (d *Driver) Halt() error {
-	// TODO: Clear the LED
-	return nil
-}
-
-var _ devices.Device = &Driver{}
